@@ -1,5 +1,6 @@
 # Infra As Code
 Infrastructure as Code deployments
+- Generate SSH key pair and replace "GEN-SSH-PUB-KEY" with the generated public key in azuredeploy.parameters.json
 - can be used e.g. through VSTS
 - can be used to show incremental ARM deployments e.g. first remove the NSG before kicking of VSTS and then repeat after adding an NSG
 - Deploy to Azure using Cloud Shell:
